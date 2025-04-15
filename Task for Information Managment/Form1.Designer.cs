@@ -46,14 +46,14 @@
             this.ID_Scanner = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.InventoryNumber = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Model = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.SerialNumber = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ResolutionDPI = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ScanType = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.PurchaseDate = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.StartDate = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.DepreciationPeriod = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.WarrantyEnd = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Status = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.RepairDate = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.RepairReason = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ID_Employee = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ID_location = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.LocationID = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.EmployeeID = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel1.SuspendLayout();
             this.panelSort.SuspendLayout();
             this.panelButtons.SuspendLayout();
@@ -211,14 +211,14 @@
             this.ID_Scanner,
             this.InventoryNumber,
             this.Model,
+            this.SerialNumber,
+            this.ResolutionDPI,
+            this.ScanType,
             this.PurchaseDate,
-            this.StartDate,
-            this.DepreciationPeriod,
+            this.WarrantyEnd,
             this.Status,
-            this.RepairDate,
-            this.RepairReason,
-            this.ID_Employee,
-            this.ID_location});
+            this.LocationID,
+            this.EmployeeID});
             this.dataGridViewDB.Location = new System.Drawing.Point(171, 109);
             this.dataGridViewDB.Name = "dataGridViewDB";
             this.dataGridViewDB.Size = new System.Drawing.Size(605, 317);
@@ -241,45 +241,45 @@
             this.Model.HeaderText = "Модель";
             this.Model.Name = "Model";
             // 
+            // SerialNumber
+            // 
+            this.SerialNumber.HeaderText = "Серийный номер";
+            this.SerialNumber.Name = "SerialNumber";
+            // 
+            // ResolutionDPI
+            // 
+            this.ResolutionDPI.HeaderText = "Разрешение (DPI)";
+            this.ResolutionDPI.Name = "ResolutionDPI";
+            // 
+            // ScanType
+            // 
+            this.ScanType.HeaderText = "Тип сканирования";
+            this.ScanType.Name = "ScanType";
+            // 
             // PurchaseDate
             // 
-            this.PurchaseDate.HeaderText = "Дата учета";
+            this.PurchaseDate.HeaderText = "Дата приобретения";
             this.PurchaseDate.Name = "PurchaseDate";
             // 
-            // StartDate
+            // WarrantyEnd
             // 
-            this.StartDate.HeaderText = "Дата начала эксплуатации";
-            this.StartDate.Name = "StartDate";
-            // 
-            // DepreciationPeriod
-            // 
-            this.DepreciationPeriod.HeaderText = "СрокАмортизации";
-            this.DepreciationPeriod.Name = "DepreciationPeriod";
+            this.WarrantyEnd.HeaderText = "Дата окончания гарантии";
+            this.WarrantyEnd.Name = "WarrantyEnd";
             // 
             // Status
             // 
             this.Status.HeaderText = "Состояние";
             this.Status.Name = "Status";
             // 
-            // RepairDate
+            // LocationID
             // 
-            this.RepairDate.HeaderText = "Дата отправки в ремонт";
-            this.RepairDate.Name = "RepairDate";
+            this.LocationID.HeaderText = "Расположение";
+            this.LocationID.Name = "LocationID";
             // 
-            // RepairReason
+            // EmployeeID
             // 
-            this.RepairReason.HeaderText = "Причина поломки";
-            this.RepairReason.Name = "RepairReason";
-            // 
-            // ID_Employee
-            // 
-            this.ID_Employee.HeaderText = "Ответственный сотрудник";
-            this.ID_Employee.Name = "ID_Employee";
-            // 
-            // ID_location
-            // 
-            this.ID_location.HeaderText = "Местоположение";
-            this.ID_location.Name = "ID_location";
+            this.EmployeeID.HeaderText = "Ответственное лицо";
+            this.EmployeeID.Name = "EmployeeID";
             // 
             // FormMain
             // 
@@ -321,14 +321,14 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn ID_Scanner;
         private System.Windows.Forms.DataGridViewTextBoxColumn InventoryNumber;
         private System.Windows.Forms.DataGridViewTextBoxColumn Model;
+        private System.Windows.Forms.DataGridViewTextBoxColumn SerialNumber;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ResolutionDPI;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ScanType;
         private System.Windows.Forms.DataGridViewTextBoxColumn PurchaseDate;
-        private System.Windows.Forms.DataGridViewTextBoxColumn StartDate;
-        private System.Windows.Forms.DataGridViewTextBoxColumn DepreciationPeriod;
+        private System.Windows.Forms.DataGridViewTextBoxColumn WarrantyEnd;
         private System.Windows.Forms.DataGridViewTextBoxColumn Status;
-        private System.Windows.Forms.DataGridViewTextBoxColumn RepairDate;
-        private System.Windows.Forms.DataGridViewTextBoxColumn RepairReason;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ID_Employee;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ID_location;
+        private System.Windows.Forms.DataGridViewTextBoxColumn LocationID;
+        private System.Windows.Forms.DataGridViewTextBoxColumn EmployeeID;
     }
 }
 
