@@ -20,7 +20,7 @@ namespace Task_for_Information_Managment
             // Создаем и вызываем подключение к БД
             DB db = new DB();
             Console.WriteLine("ehehehehhe");
-            db.ConnectionDB();
+            Console.WriteLine(db.GetConnectionString());
 
             // Запускаем форму
             Application.EnableVisualStyles();

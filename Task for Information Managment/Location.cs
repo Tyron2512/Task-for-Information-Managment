@@ -8,10 +8,9 @@ namespace Task_for_Information_Managment
 {
     public class Location
     {
-        public int LocationId { get; set; }
-        public string Name { get; set; }
-        public int? ResponsibleId { get; set; }
-        public Employee Responsible { get; set; }
-        public ICollection<Scanner> Scanners { get; set; }
+        public int Id { get; set; }
+        public string RoomName { get; set; }
+        public string Building { get; set; }
+        public int? Floor { get; set; }
     }
 }
