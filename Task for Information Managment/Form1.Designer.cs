@@ -31,8 +31,6 @@
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panelSort = new System.Windows.Forms.Panel();
-            this.button13 = new System.Windows.Forms.Button();
-            this.button12 = new System.Windows.Forms.Button();
             this.buttonDeleteScaner = new System.Windows.Forms.Button();
             this.buttonEditScaner = new System.Windows.Forms.Button();
             this.buttonAddScaner = new System.Windows.Forms.Button();
@@ -85,8 +83,6 @@
             // 
             // panelSort
             // 
-            this.panelSort.Controls.Add(this.button13);
-            this.panelSort.Controls.Add(this.button12);
             this.panelSort.Controls.Add(this.buttonDeleteScaner);
             this.panelSort.Controls.Add(this.buttonEditScaner);
             this.panelSort.Controls.Add(this.buttonAddScaner);
@@ -95,24 +91,6 @@
             this.panelSort.Name = "panelSort";
             this.panelSort.Size = new System.Drawing.Size(770, 60);
             this.panelSort.TabIndex = 3;
-            // 
-            // button13
-            // 
-            this.button13.Location = new System.Drawing.Point(635, 29);
-            this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(132, 23);
-            this.button13.TabIndex = 10;
-            this.button13.Text = "Причина поломки";
-            this.button13.UseVisualStyleBackColor = true;
-            // 
-            // button12
-            // 
-            this.button12.Location = new System.Drawing.Point(507, 29);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(122, 23);
-            this.button12.TabIndex = 9;
-            this.button12.Text = "Дата поломки";
-            this.button12.UseVisualStyleBackColor = true;
             // 
             // buttonDeleteScaner
             // 
@@ -313,8 +291,6 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Button button13;
-        private System.Windows.Forms.Button button12;
         private System.Windows.Forms.Button buttonDeleteScaner;
         private System.Windows.Forms.Button buttonEditScaner;
         private System.Windows.Forms.Button buttonAddScaner;
